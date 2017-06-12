@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tadda.WebApi", "Tadda.WebApi\Tadda.WebApi.csproj", "{1ED36D95-F86E-4789-978F-403DF710D0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tadda.Model", "Tadda.Model\Tadda.Model.csproj", "{8EBC5278-E850-43AE-BF26-38E48F6E7C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tadda.Data", "Tadda.Data\Tadda.Data.csproj", "{49AAB081-4FCD-4EC9-BC5A-20DE55DC30CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tadda.Service", "Tadda.Service\Tadda.Service.csproj", "{DC16C635-C373-4F5D-8102-1E729C18EAC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tadda.Dashboard.Web", "Tadda.Dashboard.Web\Tadda.Dashboard.Web.csproj", "{0DABA7E7-7B7A-4586-A71A-FFF805B3929A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ED36D95-F86E-4789-978F-403DF710D0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED36D95-F86E-4789-978F-403DF710D0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED36D95-F86E-4789-978F-403DF710D0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED36D95-F86E-4789-978F-403DF710D0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBC5278-E850-43AE-BF26-38E48F6E7C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBC5278-E850-43AE-BF26-38E48F6E7C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBC5278-E850-43AE-BF26-38E48F6E7C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBC5278-E850-43AE-BF26-38E48F6E7C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49AAB081-4FCD-4EC9-BC5A-20DE55DC30CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AAB081-4FCD-4EC9-BC5A-20DE55DC30CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AAB081-4FCD-4EC9-BC5A-20DE55DC30CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AAB081-4FCD-4EC9-BC5A-20DE55DC30CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC16C635-C373-4F5D-8102-1E729C18EAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC16C635-C373-4F5D-8102-1E729C18EAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC16C635-C373-4F5D-8102-1E729C18EAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC16C635-C373-4F5D-8102-1E729C18EAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DABA7E7-7B7A-4586-A71A-FFF805B3929A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DABA7E7-7B7A-4586-A71A-FFF805B3929A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DABA7E7-7B7A-4586-A71A-FFF805B3929A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DABA7E7-7B7A-4586-A71A-FFF805B3929A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
