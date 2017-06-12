@@ -28,7 +28,6 @@ namespace Tadda.WebApi.Controllers
 
         public async Task<string> UserIdentityId()
         {
-            // Git test
             var user = await UserManager.FindByNameAsync(User.Identity.Name);
             return user.Id;
         }
