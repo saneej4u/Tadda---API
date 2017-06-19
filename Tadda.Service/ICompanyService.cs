@@ -16,5 +16,7 @@ namespace Tadda.Service
         void DeleteCompanyUser(string userid);
         TempCompanyUser GetTempUser(string tempEmail);
         TempCompanyUser CreateTempCompanyUser(TempCompanyUser tempuser);
+
+        Company UpdateCompany(Company company);
     }
 }

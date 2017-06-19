@@ -81,5 +81,14 @@ namespace Tadda.Service.Implementation
         {
 
         }
+
+        public Company UpdateCompany(Company company)
+        {
+            _CompanyRepository.Update(company);
+
+            _UnitOfWork.Commit();
+
+            return company;
+        }
     }
 }

@@ -20,6 +20,15 @@ namespace Tadda.Model.Entities
         public DateTime RenewedOn { get; set; }
         public DateTime ExpireOn { get; set; }
         public DateTime DateTimeCreated { get; set; }
+        public string AddressLine1 { get; set; }
+        public string AddressLine2 { get; set; }
+        public string Street { get; set; }
+        public string Postcode { get; set; }
+        public string County { get; set; }
+        public string Country { get; set; }
+        public string PrimaryColor { get; set; }
+        public string SecondaryColor { get; set; }
+        public string BrandLogoUrl { get; set; }
 
     }
 }
