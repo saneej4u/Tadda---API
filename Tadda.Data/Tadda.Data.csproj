@@ -164,6 +164,14 @@
     <Compile Include="Migrations\201706191234200_AddCompanySettings.Designer.cs">
       <DependentUpon>201706191234200_AddCompanySettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706211845122_SecondDeploy.cs" />
+    <Compile Include="Migrations\201706211845122_SecondDeploy.Designer.cs">
+      <DependentUpon>201706211845122_SecondDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706212018551_Version_Name.cs" />
+    <Compile Include="Migrations\201706212018551_Version_Name.Designer.cs">
+      <DependentUpon>201706212018551_Version_Name.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\AddressRepository.cs" />
@@ -236,6 +244,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706191234200_AddCompanySettings.resx">
       <DependentUpon>201706191234200_AddCompanySettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706211845122_SecondDeploy.resx">
+      <DependentUpon>201706211845122_SecondDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706212018551_Version_Name.resx">
+      <DependentUpon>201706212018551_Version_Name.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
